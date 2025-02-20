@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184376952074",
+    "project_id": "teachinghand-lengs",
+    "storage_bucket": "teachinghand-lengs.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184376952074:android:0f557c65c5f443608866f3",
+        "android_client_info": {
+          "package_name": "com.teachinghand"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvE6gbBaHo8Fw_Vb3A65VTTnEjsv8hbG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
