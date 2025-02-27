@@ -1,0 +1,135 @@
+/* Estilos Gerais */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tela de Login */
+.login-screen {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.btn {
+    background: #2A9D8F;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Tela de Lições */
+.lesson-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lesson-progress {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Tela de Exercício */
+.exercise-container {
+    text-align: center;
+}
+
+.sign-video {
+    width: 200px;
+    height: 200px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.option-btn {
+    padding: 15px;
+    background: white;
+    border: 2px solid #2A9D8F;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Barra de Progresso */
+.progress-bar {
+    height: 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 65%;
+    background: #2A9D8F;
+    border-radius: 4px;
+}
+
+/* Dicionário de LIBRAS */
+.dictionary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.sign-card {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sign-thumbnail {
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    border-radius: 8px;
+    margin: 0 auto 10px;
+}
