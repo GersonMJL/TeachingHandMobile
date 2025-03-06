@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor "Usuário" as User
+
+rectangle "Progresso e Motivação" {
+  User --> (Acompanhar Sequência Diária)
+  User --> (Conquistar Conquistas)
+  User --> (Desbloquear Níveis)
+  User --> (Ver Ranking)
+  User --> (Ajustar Metas Diárias)
+
+  (Conquistar Conquistas) .> (Desbloquear Níveis) : desencadeia
+  (Acompanhar Sequência Diária) .> (Ajustar Metas Diárias) : atualiza
+}
+@enduml

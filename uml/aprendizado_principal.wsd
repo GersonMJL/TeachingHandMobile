@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor "Usuário" as User
+
+rectangle "Aprendizado Principal" {
+  User --> (Completar Lição)
+  User --> (Assistir Vídeo do Sinal)
+  User --> (Revisar Erros Comuns)
+
+  (Completar Lição) .> (Assistir Vídeo do Sinal) : inclui
+  (Completar Lição) .> (Revisar Erros Comuns) : inclui
+}
+@enduml
